@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <script type="text/javascript">
+        alert("Este es el ejercicio número 1");
+    </script>
+</head>
+<body>
+    <script>
+        var distancia;
+            distancia=prompt('Ingrese la distancia a recorrer en metros: ' , '');
+        if(distancia <= 1000){
+            document.write('Usted debe viajar a pie');
+        } else if(distancia <= 10000){
+            document.write('Usted debe viajar en bicicleta');
+        } else if(distancia <= 30000){
+            document.write('Usted debe viajar en colectivo');
+        } else if(distancia <= 100000){
+            document.write('Usted debe viajar en auto');
+        } else {
+            document.write('Usted debe viajar en avión');
+        }
+
+    </script>
+</body>
+</html>
